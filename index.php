@@ -33,9 +33,9 @@ if($logo){
     imagepng($QR, $filename);
 }
 
+
 if(file_exists($filename)){
     echo $filename;
 }else{
     echo false;
 }
-
